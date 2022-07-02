@@ -1,34 +1,32 @@
 class Translation(object):
-    START_TEXT = """Hi {},
-I'm X-URL-Uploader!
-You can upload HTTP/HTTPS direct link, Using this bot!
-
-/help for more details!"""
-    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
+    START_TEXT = """⭐ Hi {} \n 😉 Soy URL UPLOADER perteneciente a la cadena de bots R-DOWNLOAD \n 👉 Soy el encargado de extraer los vídeos o archivos de una url (youtube, facebook, etc) y subirlos a Telegram \n 👉 Use /help para saber más sobre mi
+\help -£> Informacion!"""
+    FORMAT_SELECTION = "Seleccione el formato deseado: <a href='{}'>El tamaño del archivo puede ser aproximado</a> \n Si desea establecer una miniatura personalizada, envíe una foto antes o rápidamente después de tocar cualquiera de los botones a continuación.\nPuedes usar /deletethumbnail para eliminar las miniaturas generadas automaticamente."
+    SET_CUSTOM_USERNAME_PASSWORD = """Si deseas descargar videos Premium proporcione de esta forma:
 URL | filename | username | password"""
-    DOWNLOAD_START = "Now Downloading.."
-    UPLOAD_START = "Now Uploading.."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using @xurluploaderbot)"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds.\n\n@xurluploaderbot"
-    SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
+    DOWNLOAD_START = "⬇ DESCARGANDO ..."
+    UPLOAD_START = "⬆ SUBIENDO ..."
+    RCHD_TG_API_LIMIT = "⏰ Descargado en {} seconds.\n 📄 Tamaño del Archivo: {}\nSorry. La API de Telegram solo permite archivos menores a 2GB."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "😍 Gracias por usar URL UPLOADER)"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "⏰ Descargado {} seconds.\n ⬆ Subido en  {} seconds.\n\n ⚡️ URL UPLOADER ⚡️"
+    SAVED_CUSTOM_THUMB_NAIL = "Miniatura de video / file thumbnail saved. Esta imagen será usada en el video / file."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Miniatura eliminada satisfactoriamente."
     CUSTOM_CAPTION_UL_FILE = "{}"
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
-    HELP_USER = """How to Use Me? Follow These steps!
+    HELP_USER = """Como usarme? Sigue estos pasos!
     
-1. Send url (example.domain/File.mp4 | New Filename.mp4).
-2. Send Image As Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File (video) as file with Screenshots
-   Video  - Give File as video without Screenshots
-   File   - Give File without Screenshots
+1. Enviame un enlace
+2. (Opcional) Si quieres que renombre el archivo o video enviamelo de esta forma 👉 https://enlace.del.video | nuevo_nombre.mp4
+3. (Opcional) Enviame una imagen para usarlo de miniatura
+4. Selecciona el botón.
+   SVideo - Dar el archivo como video con capturas de pantallas.
+   DFile  - Dar el archivo (video) como archivo y con capturas de pantallas
+   Video  - Dar el archivo como video sin capturas de pantallas
+   File   - Dar como archivo sin capturas de pantallas
 
-If bot didn't respond, contact @xgorn"""
-    REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /genthumbnail to a media album, to generate custom thumbnail"
-    ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
-    CANCEL_STR = "Process Cancelled"
-    ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+Si el bot no responde, contacta con @raydel0307"""
+    REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Responde con /genthumbnail a un álbum de medios para generar capturas de pantallas"
+    ERR_ONLY_TWO_MEDIA_IN_ALBUM = "El álbum de medios debe contener solo dos fotos. Vuelva a enviar el álbum de medios y luego intente nuevamente, o envíe solo dos fotos en un album."
+    CANCEL_STR = "❌ Proceso cancelado"
+    ZIP_UPLOADED_STR = "⬆ Subidos {} 📄 archivos en {} ⏰ segundos"
+    SLOW_URL_DECED = "Dios, eso parece ser una URL muy lenta. Dado que estaba jodiendo mi casa, no estoy de humor para descargar este archivo. Mientras tanto, ¿por qué no intentas conseguirme una URL rápida para que pueda subir a Telegram, sin que me desacelere para otros usuarios "
