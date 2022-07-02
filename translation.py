@@ -19,9 +19,14 @@ URL | filename | username | password"""
     HELP_USER = """Como usarme? Sigue estos pasos!
     
 1. Enviame un enlace
-2. (Opcional) Si quieres que renombre el archivo o video enviamelo de esta forma 👉 https://enlace.del.video | nuevo_nombre.mp4
+
+2. (Opcional) Si quieres que renombre el archivo o video enviamelo de esta forma 
+   👉 https://enlace.del.video | nuevo_nombre.mp4
+
 😑 Ejemplo http://www.youtube.com/watch?v=-i_AdLSafQw | capitulo1.mp4
+
 3. (Opcional) Enviame una imagen para usarlo de miniatura
+
 4. Selecciona el botón.
    SVideo - Dar el archivo como video con capturas de pantallas.
    DFile  - Dar el archivo (video) como archivo y con capturas de pantallas
