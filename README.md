@@ -36,6 +36,6 @@ Telegram RoBot to Upload Links.
 
 Press the below button to deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ElJoker63/X-URL-Uploader)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/monu875/X-URL-Uploader)
 
 
